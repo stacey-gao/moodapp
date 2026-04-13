@@ -1,0 +1,61 @@
+<div class="mood-container">
+  <h2>How are you feeling today?</h2>
+
+  <div class="mood-grid">
+
+    <button class="mood-btn" (click)="selectMood(1)">
+      <span class="emoji">{{ emojis[0] }}</span>
+      <span class="value">1</span>
+    </button>
+
+    <button class="mood-btn" (click)="selectMood(2)">
+      <span class="emoji">{{ emojis[1] }}</span>
+      <span class="value">2</span>
+    </button>
+
+    <button class="mood-btn" (click)="selectMood(3)">
+      <span class="emoji">{{ emojis[2] }}</span>
+      <span class="value">3</span>
+    </button>
+
+    <button class="mood-btn" (click)="selectMood(4)">
+      <span class="emoji">{{ emojis[3] }}</span>
+      <span class="value">4</span>
+    </button>
+
+    <button class="mood-btn" (click)="selectMood(5)">
+      <span class="emoji">{{ emojis[4] }}</span>
+      <span class="value">5</span>
+    </button>
+
+    <button class="mood-btn" (click)="selectMood(6)">
+      <span class="emoji">{{ emojis[5] }}</span>
+      <span class="value">6</span>
+    </button>
+
+    <button class="mood-btn" (click)="selectMood(7)">
+      <span class="emoji">{{ emojis[6] }}</span>
+      <span class="value">7</span>
+    </button>
+
+    <button class="mood-btn" (click)="selectMood(8)">
+      <span class="emoji">{{ emojis[7] }}</span>
+      <span class="value">8</span>
+    </button>
+
+    <button class="mood-btn" (click)="selectMood(9)">
+      <span class="emoji">{{ emojis[8] }}</span>
+      <span class="value">9</span>
+    </button>
+
+    <button class="mood-btn" (click)="selectMood(10)">
+      <span class="emoji">{{ emojis[9] }}</span>
+      <span class="value">10</span>
+    </button>
+
+  </div>
+
+  <div class="result" *ngIf="selectedMood !== null">
+    Selected Mood: <strong>{{ selectedMood }}/10</strong>
+  </div>
+</div>
