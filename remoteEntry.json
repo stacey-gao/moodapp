@@ -1,0 +1,139 @@
+{
+  "name": "moodapp",
+  "shared": [
+    {
+      "packageName": "@angular/common",
+      "outFileName": "_angular_common.-IHK6q5FWO.js",
+      "requiredVersion": "^21.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "21.2.7"
+    },
+    {
+      "packageName": "@angular/common/http",
+      "outFileName": "_angular_common_http.5r2cNN2wrg.js",
+      "requiredVersion": "^21.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "21.2.7"
+    },
+    {
+      "packageName": "@angular/core",
+      "outFileName": "_angular_core.0M_yOny4vO.js",
+      "requiredVersion": "^21.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "21.2.7"
+    },
+    {
+      "packageName": "@angular/core/primitives/di",
+      "outFileName": "_angular_core_primitives_di.HTiLXk3NSg.js",
+      "requiredVersion": "^21.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "21.2.7"
+    },
+    {
+      "packageName": "@angular/core/primitives/signals",
+      "outFileName": "_angular_core_primitives_signals.fndzbK_S7O.js",
+      "requiredVersion": "^21.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "21.2.7"
+    },
+    {
+      "packageName": "@angular/forms",
+      "outFileName": "_angular_forms.b7cr5s--9F.js",
+      "requiredVersion": "^21.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "21.2.7"
+    },
+    {
+      "packageName": "@angular/platform-browser",
+      "outFileName": "_angular_platform_browser.fckWSGq8YI.js",
+      "requiredVersion": "^21.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "21.2.7"
+    },
+    {
+      "packageName": "@angular/router",
+      "outFileName": "_angular_router.o3lql3_QZo.js",
+      "requiredVersion": "^21.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "21.2.7"
+    },
+    {
+      "packageName": "rxjs",
+      "outFileName": "rxjs.NOYQgqG4rg.js",
+      "requiredVersion": "~7.8.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "7.8.2"
+    },
+    {
+      "packageName": "rxjs/operators",
+      "outFileName": "rxjs_operators._iSxJz8E50.js",
+      "requiredVersion": "~7.8.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "7.8.2"
+    },
+    {
+      "packageName": "tslib",
+      "outFileName": "tslib.12f2VBKzUk.js",
+      "requiredVersion": "^2.3.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "2.8.1"
+    },
+    {
+      "singleton": false,
+      "strictVersion": false,
+      "version": "0.0.0",
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-KNUKVBCT",
+      "outFileName": "chunk-KNUKVBCT.js"
+    },
+    {
+      "singleton": false,
+      "strictVersion": false,
+      "version": "0.0.0",
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-XSHMNC47",
+      "outFileName": "chunk-XSHMNC47.js"
+    },
+    {
+      "singleton": false,
+      "strictVersion": false,
+      "version": "0.0.0",
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-BUGNM72M",
+      "outFileName": "chunk-BUGNM72M.js"
+    },
+    {
+      "singleton": false,
+      "strictVersion": false,
+      "version": "0.0.0",
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-GJR7JBVZ",
+      "outFileName": "chunk-GJR7JBVZ.js"
+    },
+    {
+      "singleton": false,
+      "strictVersion": false,
+      "version": "0.0.0",
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-4CLCTAJ7",
+      "outFileName": "chunk-4CLCTAJ7.js"
+    }
+  ],
+  "exposes": [
+    {
+      "key": "./WeeklyTrend",
+      "outFileName": "WeeklyTrend-FBWDC5C6.js"
+    }
+  ]
+}
