@@ -148,7 +148,8 @@ var zt = class {
     url;
     remaining;
     constructor(n) { this.url = n, this.remaining = n; }
-    parseRootSegment() { return this.consumeOptional("/"), this.remaining === "" || this.peekStartsWith("?") || this.peekStartsWith("#") ? new m([], {}) : new m([], this.parseChildren()); }
+    parseRootSegment() { for (; this.consumeOptional("/");)
+        ; return this.remaining === "" || this.peekStartsWith("?") || this.peekStartsWith("#") ? new m([], {}) : new m([], this.parseChildren()); }
     parseQueryParams() { let n = {}; if (this.consumeOptional("?"))
         do
             this.parseQueryParam(n);
@@ -1504,7 +1505,7 @@ function Cs(t) { return t.map(n => (...e) => Ke(n).canActivate(...e)); }
 function Ss(t) { return t.map(n => (...e) => Ke(n).canActivateChild(...e)); }
 function ws(t) { return t.map(n => (...e) => Ke(n).canDeactivate(...e)); }
 function bs(t) { return (...n) => Ke(t).resolve(...n); }
-var Is = new _a("21.2.7");
+var Is = new _a("21.2.9");
 export { Q as ActivatedRoute, Ie as ActivatedRouteSnapshot, pt as ActivationEnd, ft as ActivationStart, Rt as BaseRouteReuseStrategy, ht as ChildActivationEnd, dt as ChildActivationStart, pe as ChildrenOutletContexts, dn as DefaultTitleStrategy, Z as DefaultUrlSerializer, w as EventType, at as GuardsCheckEnd, ot as GuardsCheckStart, M as NavigationCancel, b as NavigationCancellationCode, N as NavigationEnd, re as NavigationError, q as NavigationSkipped, Ce as NavigationSkippedCode, J as NavigationStart, pa as NoPreloading, gt as OutletContext, p as PRIMARY_OUTLET, fa as PreloadAllModules, We as PreloadingStrategy, X as ROUTER_CONFIGURATION, vr as ROUTER_INITIALIZER, Jr as ROUTER_OUTLET_DATA, oe as ROUTES, Ee as RedirectCommand, ct as ResolveEnd, st as ResolveStart, lt as RouteConfigLoadEnd, ut as RouteConfigLoadStart, yn as RouteReuseStrategy, H as Router, P as RouterEvent, Tt as RouterLink, da as RouterLinkActive, Tt as RouterLinkWithHref, Ea as RouterModule, ar as RouterOutlet, Mn as RouterPreloader, ze as RouterState, Fe as RouterStateSnapshot, $e as RoutesRecognized, Se as Scroll, lr as TitleStrategy, wt as UrlHandlingStrategy, ee as UrlSegment, m as UrlSegmentGroup, ie as UrlSerializer, T as UrlTree, Is as VERSION, le as convertToParamMap, Br as createUrlTreeFromSnapshot, Ur as defaultUrlMatcher, xo as destroyDetachedRouteHandle, rr as isActive, Cs as mapToCanActivate, Ss as mapToCanActivateChild, ws as mapToCanDeactivate, Rs as mapToCanMatch, bs as mapToResolve, va as provideRouter, ma as provideRoutes, xn as withComponentInputBinding, Ca as withDebugTracing, Un as withDisabledInitialNavigation, On as withEnabledBlockingInitialNavigation, Ia as withExperimentalAutoCleanupInjectors, Ra as withExperimentalPlatformNavigation, wa as withHashLocation, ya as withInMemoryScrolling, ba as withNavigationErrorHandler, Ln as withPreloading, Sa as withRouterConfig, jn as withViewTransitions, cr as \u0275EmptyOutletComponent, kn as \u0275ROUTER_PROVIDERS, Et as \u0275afterNextNavigation, hn as \u0275loadChildren };
 /*! Bundled license information:
 
@@ -1512,7 +1513,7 @@ export { Q as ActivatedRoute, Ie as ActivatedRouteSnapshot, pt as ActivationEnd,
 @angular/router/fesm2022/_router_module-chunk.mjs:
 @angular/router/fesm2022/router.mjs:
   (**
-   * @license Angular v21.2.7
+   * @license Angular v21.2.9
    * (c) 2010-2026 Google LLC. https://angular.dev/
    * License: MIT
    *)

@@ -1,4 +1,4 @@
-import { a as Rt, b as Ot, c as Pt, d as U, e as Bt, f as Nt, g as kt, h as xt } from "@nf-internal/chunk-XSHMNC47";
+import { a as Rt, b as Ot, c as Pt, d as U, e as Bt, f as Nt, g as kt, h as xt } from "@nf-internal/chunk-BBNAOKFW";
 import { a as Y, b as K } from "@nf-internal/chunk-4CLCTAJ7";
 import * as _ from "@angular/core";
 import { InjectionToken as $t, inject as Ue, DOCUMENT as Ut, \u0275\u0275inject as jt } from "@angular/core";
@@ -970,7 +970,7 @@ function vr(e, i, t) { return di(e, i, t); }
 var wi = "browser", Ai = "server";
 function Ir(e) { return e === wi; }
 function Lr(e) { return e === Ai; }
-var Mr = new li("21.2.7"), Tr = (() => { class e {
+var Mr = new li("21.2.9"), Tr = (() => { class e {
     static \u0275prov = fi({ token: e, providedIn: "root", factory: () => typeof ngServerMode < "u" && ngServerMode ? new Re : new Te(L(It), window) });
 } return e; })(), Te = class {
     document;
@@ -1128,7 +1128,7 @@ export { q as APP_BASE_HREF, Hn as AsyncPipe, Nt as BrowserPlatformLocation, ai 
 @angular/common/fesm2022/_platform_navigation-chunk.mjs:
 @angular/common/fesm2022/common.mjs:
   (**
-   * @license Angular v21.2.7
+   * @license Angular v21.2.9
    * (c) 2010-2026 Google LLC. https://angular.dev/
    * License: MIT
    *)

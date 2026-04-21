@@ -14,7 +14,7 @@ export { c as a, i as b, s as c, u as d, o as e, f };
 
 @angular/core/fesm2022/_not_found-chunk.mjs:
   (**
-   * @license Angular v21.2.7
+   * @license Angular v21.2.9
    * (c) 2010-2026 Google LLC. https://angular.dev/
    * License: MIT
    *)
