@@ -1,11 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';  
 import { FormsModule } from '@angular/forms';    
-import { MoodHistory } from '../mood-history/mood-history';
 
 @Component({
   selector: 'app-logmood',
-  imports: [CommonModule, FormsModule, MoodHistory], 
+  imports: [CommonModule, FormsModule], 
   templateUrl: './logmood.html',
   styleUrl: './logmood.scss',
 })

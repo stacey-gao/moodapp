@@ -99,9 +99,12 @@
 					},
 					"defaultConfiguration": "development",
 					"options": {
-						"port": 4201
+						"port": 4200
 					}
-				}
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
+        }
 			}
 		}
 	}
