@@ -1,0 +1,22 @@
+<div class="app-container">
+  
+  <nav class="sidebar">
+    <h2 class="title">NeuroConnect</h2>
+
+    <button routerLink="/" routerLinkActive="active" >
+      Home
+    </button>
+
+
+    <button routerLink="/glucose">Glucose</button>
+    <button routerLink="/cholesterol">Cholesterol</button>
+    <button routerLink="/sleep">Sleep</button>
+    <button routerLink="/mood">Mood</button>
+    <button routerLink="/heart-rate">Heart Rate</button>
+  </nav>
+
+  <main class="content">
+    <router-outlet></router-outlet>
+  </main>
+
+</div>

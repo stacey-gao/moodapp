@@ -6,7 +6,7 @@
 	},
 	"newProjectRoot": "projects",
 	"projects": {
-		"moodapp": {
+		"host-app": {
 			"projectType": "application",
 			"schematics": {
 				"@schematics/angular:component": {
@@ -22,10 +22,10 @@
 					"options": {},
 					"configurations": {
 						"production": {
-							"target": "moodapp:esbuild:production"
+							"target": "host-app:esbuild:production"
 						},
 						"development": {
-							"target": "moodapp:esbuild:development",
+							"target": "host-app:esbuild:development",
 							"dev": true
 						}
 					},
@@ -34,7 +34,7 @@
 				"serve": {
 					"builder": "@angular-architects/native-federation:build",
 					"options": {
-						"target": "moodapp:serve-original:development",
+						"target": "host-app:serve-original:development",
 						"rebuildDelay": 500,
 						"dev": true,
 						"cacheExternalArtifacts": false,
@@ -91,20 +91,17 @@
 					"builder": "@angular/build:dev-server",
 					"configurations": {
 						"production": {
-							"buildTarget": "moodapp:esbuild:production"
+							"buildTarget": "host-app:esbuild:production"
 						},
 						"development": {
-							"buildTarget": "moodapp:esbuild:development"
+							"buildTarget": "host-app:esbuild:development"
 						}
 					},
 					"defaultConfiguration": "development",
 					"options": {
 						"port": 4200
 					}
-        },
-        "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
-        }
+				}
 			}
 		}
 	}

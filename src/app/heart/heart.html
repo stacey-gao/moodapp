@@ -1,0 +1,102 @@
+git status<div class="dashboard-layout">
+  <aside class="sidebar">
+    <div class="logo">HeartCare</div>
+    <nav>
+      <a href="#">Overview</a>
+      <a href="#" class="active">Heart Dashboard</a>
+      <a href="#">Add Reading</a>
+      <a href="#">History</a>
+    </nav>
+  </aside>
+
+  <main class="main-content">
+    <section class="welcome-card">
+      <h1>Welcome back, User</h1>
+      <p>Track your heart health, exercise, and weekly BPM trends.</p>
+    </section>
+
+    <section class="summary-grid">
+      <div class="summary-card">
+        <h3>Latest BPM</h3>
+        <p class="big-number">{{ latestReading?.bpm || '-' }}</p>
+      </div>
+
+      <div class="summary-card">
+        <h3>Total Readings</h3>
+        <p class="big-number">{{ totalReadings }}</p>
+      </div>
+
+      <div class="summary-card">
+        <h3>Average BPM</h3>
+        <p class="big-number">{{ averageBpm }}</p>
+      </div>
+    </section>
+
+    <section class="content-grid">
+      <div class="chart-card">
+        <h2>Weekly BPM Trend</h2>
+        <div class="chart">
+          <div class="bar-group" *ngFor="let item of weeklyChart">
+            <div
+              class="bar"
+              [style.height.px]="item.bpm > 0 ? item.bpm * 1.5 : 8">
+            </div>
+            <span>{{ item.day }}</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-card">
+        <h2>Add Reading</h2>
+
+        <label>BPM</label>
+        <input type="number" [(ngModel)]="bpmInput" placeholder="Enter BPM" />
+
+        <label>Exercise</label>
+        <input type="text" [(ngModel)]="exerciseInput" placeholder="Walking, Running..." />
+
+        <label>Duration (minutes)</label>
+        <input type="number" [(ngModel)]="durationInput" placeholder="Enter duration" />
+
+        <label>Day</label>
+        <select [(ngModel)]="selectedDay">
+          <option>Monday</option>
+          <option>Tuesday</option>
+          <option>Wednesday</option>
+          <option>Thursday</option>
+          <option>Friday</option>
+          <option>Saturday</option>
+          <option>Sunday</option>
+        </select>
+
+        <button (click)="addReading()">Add Reading</button>
+      </div>
+    </section>
+
+    <section class="table-card">
+      <h2>Recent Readings</h2>
+
+      <div class="reading-row header-row">
+        <div>Day</div>
+        <div>BPM</div>
+        <div>Exercise</div>
+        <div>Duration</div>
+        <div>Status</div>
+      </div>
+
+      <div class="reading-row" *ngFor="let reading of readings">
+        <div>{{ reading.day }}</div>
+        <div>{{ reading.bpm }}</div>
+        <div>{{ reading.exercise }}</div>
+        <div>{{ reading.duration }} min</div>
+        <div [ngClass]="{
+          'status-low': reading.status === 'Low',
+          'status-normal': reading.status === 'Normal',
+          'status-high': reading.status === 'High'
+        }">
+          {{ reading.status }}
+        </div>
+      </div>
+    </section>
+  </main>
+</div>

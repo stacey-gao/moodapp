@@ -1,0 +1,43 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+/* ===== Sidebar (20%) ===== */
+.sidebar {
+  width: 20%;
+  background: #1e293b;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+/* Nav buttons */
+.sidebar button {
+  padding: 10px;
+  border: none;
+  background: transparent;
+  color: white;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.sidebar button:hover {
+  background: #334155;
+}
+
+/* ===== Content (80%) ===== */
+.content {
+  width: 80%;
+  padding: 20px;
+  background: #f8fafc;
+  overflow-y: auto;
+}
