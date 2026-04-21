@@ -63,3 +63,67 @@ h2 {
   font-size: 1.1rem;
   color: #222;
 }
+
+.note-input {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 1rem;
+
+  textarea {
+    width: 100%;
+    height: 70px;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    resize: none;
+  }
+}
+
+.entry {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.entry-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.entry-note {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.3rem;
+}
+
+.date-input {
+  margin-bottom: 1rem;
+
+  input {
+    margin-left: 0.5rem;
+    padding: 0.3rem;
+  }
+}
+
+.history {
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.entry {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.clear {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}

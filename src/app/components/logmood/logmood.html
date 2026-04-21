@@ -1,6 +1,11 @@
 <div class="mood-container">
   <h2>How are you feeling today?</h2>
 
+  <div class="date-input">
+    <label>Select Date:</label>
+    <input type="date" [(ngModel)]="selectedDate">
+  </div>
+
   <div class="mood-grid">
 
     <button class="mood-btn" (click)="selectMood(1)">
@@ -55,7 +60,38 @@
 
   </div>
 
+  <br />
+  <div class="note-input">
+    <textarea
+      placeholder="Add a note about your day..."
+      [(ngModel)]="note">
+    </textarea>
+  </div>
   <div class="result" *ngIf="selectedMood !== null">
     Selected Mood: <strong>{{ selectedMood }}/10</strong>
   </div>
+
+  <br />
+
+  <h3>History</h3>
+
+  <div class="history">
+    <div class="entry" *ngFor="let mood of moods">
+      <div class="entry-main">
+        <span>{{ mood.value }}/10</span>
+        <span>{{ mood.date }}</span>
+      </div>
+
+      <div class="entry-note" *ngIf="mood.note">
+        {{ mood.note }}
+      </div>
+
+      <button (click)="deleteMood(mood.id)">❌</button>
+    </div>
+  </div>
+
+
+  <button class="clear" (click)="clearAllMoods()">
+    Clear All
+  </button>
 </div>

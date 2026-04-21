@@ -2,6 +2,7 @@ import { Component, } from '@angular/core';
 
 @Component({
   selector: 'app-weeklytrend',
+  standalone: true,
   imports: [],
   templateUrl: './weeklytrend.html',
   styleUrl: './weeklytrend.scss',
@@ -54,7 +55,7 @@ export class Weeklytrend {
 
     let d = `M ${points[0][0]} ${points[0][1]}`;
 
-    //logic for curved line
+    //logic for curved line was revised by Gemini
     for (let i = 0; i < points.length - 1; i++) {
       const [x1, y1] = points[i];
       const [x2, y2] = points[i + 1];
