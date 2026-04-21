@@ -1,38 +1,13 @@
-import { loadRemoteModule } from '@angular-architects/native-federation';
 import { Routes } from '@angular/router';
-import { Homepage } from './homepage/homepage';
+import { Logmoodpage } from './logmoodpage/logmoodpage';
+import { Dashboard } from './dashboard/dashboard';
+import { Seetrends } from './seetrends/seetrends';
 
 export const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
+    // Default route: redirects empty URL to dashboard
+  { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
   
   // Navigation routes
-  { path: 'homepage', component: Homepage, title: 'NeuroConnect' },
-
-  
-  {
-    path: 'glucose',
-    loadComponent: () => 
-      loadRemoteModule('glucose', './Component').then(m => m.AppComponent)
-  },
-  {
-    path: 'cholesterol',
-    loadComponent: () => 
-      loadRemoteModule('cholesterol', './Component').then(m => m.AppComponent)
-  },
-  {
-    path: 'sleep',
-    loadComponent: () => 
-      loadRemoteModule('sleep', './Component').then(m => m.AppComponent)
-  },
-  {
-    path: 'mood',
-    loadComponent: () =>
-      loadRemoteModule('mood', './WeeklyTrend')
-        .then(m => m.WeeklyTrend),
-  },
-  {
-    path: 'heart-rate',
-    loadComponent: () => 
-      loadRemoteModule('heartRate', './Component').then(m => m.AppComponent)
-  }
-];
+  { path: 'dashboard', component: Dashboard, title: 'Dashboard' },
+  { path: 'logmoodpage', component: Logmoodpage, title: 'Log Your Mood' },
+  { path: 'seetrends', component: Seetrends, title: 'Trends' }];

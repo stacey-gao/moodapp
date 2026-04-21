@@ -1,14 +1,14 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Navbar } from './navbar/navbar';
-import { Homepage } from './homepage/homepage';
+import { Header } from './components/header/header';
+import { Dashboard } from './dashboard/dashboard';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Homepage, Navbar],
+  imports: [RouterOutlet, Header, Dashboard],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
 export class App {
-  protected readonly title = signal('host-app');
+  protected readonly title = signal('moodapp');
 }

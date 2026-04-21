@@ -1,16 +1,13 @@
 const { withNativeFederation, shareAll } = require('@angular-architects/native-federation/config');
 
 module.exports = withNativeFederation({
-  name: 'host-app',
+  name: 'moodapp',
 
-  remotes: {
-    glucose: 'https://sakheem.github.io/glucose-app/remoteEntry.json',
-    cholesterol: 'https://mogada7281.github.io/cholesterol/remoteEntry.json',
-    mood: 'https://stacey-gao.github.io/moodapp/remoteEntry.json',
-    sleep: 'https://krobinson03.github.io/sleep-tracker/remoteEntry.json',
-    heart: 'https://sabairfan14.github.io/my-app/remoteEntry.json',
+
+
+  exposes: {
+   './WeeklyTrend': './src/app/components/weeklytrend/weeklytrend.ts',
   },
-
 
   shared: {
     ...shareAll({ singleton: true, strictVersion: true, requiredVersion: 'auto' }),

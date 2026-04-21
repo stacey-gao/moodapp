@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Navbar } from './navbar';
+import { MoodHistory } from './mood-history';
 
-describe('Navbar', () => {
-  let component: Navbar;
-  let fixture: ComponentFixture<Navbar>;
+describe('MoodHistory', () => {
+  let component: MoodHistory;
+  let fixture: ComponentFixture<MoodHistory>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Navbar]
+      imports: [MoodHistory]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Navbar);
+    fixture = TestBed.createComponent(MoodHistory);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });
