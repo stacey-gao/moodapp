@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/header/header.scss"],
+  "sourcesContent": ["\nheader {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 1rem 2rem;\n  background-color: #333;\n  color: #fff;\n  font-size: 20px;\n  font-family: 'Lato', sans-serif;\n  \n\n\n  nav {\n    ul {\n      display: flex;\n      gap: 1.5rem;\n      list-style: none;\n      margin: 0;\n      padding: 0;\n\n      li {\n        a {\n          text-decoration: none;\n          color: #fff;\n          font-size: 0.95rem;\n\n          &:hover {\n            background-color: #1e60a7;\n          }\n        }\n      }\n    }\n  }\n}"],
+  "mappings": ";AACA;AACE,WAAA;AACA,eAAA;AACA,mBAAA;AACA,WAAA,KAAA;AACA,oBAAA;AACA,SAAA;AACA,aAAA;AACA,eAAA,MAAA,EAAA;;AAKE,OAAA,IAAA;AACE,WAAA;AACA,OAAA;AACA,cAAA;AACA,UAAA;AACA,WAAA;;AAGE,OAAA,IAAA,GAAA,GAAA;AACE,mBAAA;AACA,SAAA;AACA,aAAA;;AAEA,OAAA,IAAA,GAAA,GAAA,CAAA;AACE,oBAAA;;",
+  "names": []
+}

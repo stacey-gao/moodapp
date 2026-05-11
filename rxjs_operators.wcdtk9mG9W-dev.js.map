@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../rxjs/dist/esm/internal/operators/partition.js", "../../../rxjs/dist/esm/internal/operators/race.js"],
+  "sourcesContent": ["import { not } from '../util/not';\nimport { filter } from './filter';\nexport function partition(predicate, thisArg) {\n    return (source) => [filter(predicate, thisArg)(source), filter(not(predicate, thisArg))(source)];\n}\n", "import { argsOrArgArray } from '../util/argsOrArgArray';\nimport { raceWith } from './raceWith';\nexport function race(...args) {\n    return raceWith(...argsOrArgArray(args));\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAEO,SAAS,UAAU,WAAW,SAAS;AAC1C,SAAO,CAAC,WAAW,CAAC,OAAO,WAAW,OAAO,EAAE,MAAM,GAAG,OAAO,IAAI,WAAW,OAAO,CAAC,EAAE,MAAM,CAAC;AACnG;;;ACFO,SAAS,QAAQ,MAAM;AAC1B,SAAO,SAAS,GAAG,eAAe,IAAI,CAAC;AAC3C;",
+  "names": []
+}
