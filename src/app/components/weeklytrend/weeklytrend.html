@@ -1,0 +1,59 @@
+<div class="chart-container">
+
+  <!-- EMPTY STATE -->
+  <div [hidden]="hasData" class="empty">
+    No mood data yet — start logging your mood!
+  </div>
+
+  <!-- CONTROLS -->
+  <div class="controls">
+    <button (click)="prevWeek()">←</button>
+    <span>{{ weekLabel }}</span>
+    <button (click)="nextWeek()">→</button>
+  </div>
+
+  <!-- CHART -->
+  <div [hidden]="!hasData">
+
+    <svg width="360" height="200" class="chart">
+
+      <defs>
+        <linearGradient id="gradient">
+          <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.4"/>
+          <stop offset="100%" stop-color="#4f46e5" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+
+      <path [attr.d]="areaPath" fill="url(#gradient)"></path>
+      <path [attr.d]="path" class="line"></path> 
+
+      <!-- Points -->
+      <circle cx="0" [attr.cy]="getY(getMood(6))" r="5" (mouseenter)="setHover(6)" (mouseleave)="setHover(null)"></circle>
+      <circle cx="60" [attr.cy]="getY(getMood(5))" r="5" (mouseenter)="setHover(5)" (mouseleave)="setHover(null)"></circle>
+      <circle cx="120" [attr.cy]="getY(getMood(4))" r="5" (mouseenter)="setHover(4)" (mouseleave)="setHover(null)"></circle>
+      <circle cx="180" [attr.cy]="getY(getMood(3))" r="5" (mouseenter)="setHover(3)" (mouseleave)="setHover(null)"></circle>
+      <circle cx="240" [attr.cy]="getY(getMood(2))" r="5" (mouseenter)="setHover(2)" (mouseleave)="setHover(null)"></circle>
+      <circle cx="300" [attr.cy]="getY(getMood(1))" r="5" (mouseenter)="setHover(1)" (mouseleave)="setHover(null)"></circle>
+      <circle cx="360" [attr.cy]="getY(getMood(0))" r="5" (mouseenter)="setHover(0)" (mouseleave)="setHover(null)"></circle>
+
+    </svg>
+
+    <!-- TOOLTIP -->
+    <div class="tooltip" [hidden]="hoveredIndex === null">
+      {{ getDayLabel(hoveredIndex!) }}: {{ getMood(hoveredIndex!) }}/10
+    </div>
+
+    <!-- LABELS -->
+    <div class="labels">
+      <span>{{ getDayLabel(6) }}</span>
+      <span>{{ getDayLabel(5) }}</span>
+      <span>{{ getDayLabel(4) }}</span>
+      <span>{{ getDayLabel(3) }}</span>
+      <span>{{ getDayLabel(2) }}</span>
+      <span>{{ getDayLabel(1) }}</span>
+      <span>{{ getDayLabel(0) }}</span>
+    </div>
+
+  </div>
+
+</div>
