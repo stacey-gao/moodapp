@@ -1,4 +1,4 @@
-import { d as Re, g as Pe, h as Me } from "@nf-internal/chunk-BBNAOKFW";
+import { d as Re, g as Pe, h as Me } from "@nf-internal/chunk-XLQPIWP7";
 import { a as J, c as be, d as te } from "@nf-internal/chunk-4CLCTAJ7";
 import * as l from "@angular/core";
 import { \u0275RuntimeError as N, inject as g, NgZone as Tr, DestroyRef as vr, \u0275formatRuntimeError as pt, InjectionToken as I, \u0275TracingService as wr, runInInjectionContext as ce, PendingTasks as xe, CSP_NONCE as Er, DOCUMENT as Fe, EnvironmentInjector as br, makeEnvironmentProviders as Rr } from "@angular/core";
@@ -528,7 +528,7 @@ export { G as FetchBackend, he as HTTP_INTERCEPTORS, ir as HTTP_TRANSFER_CACHE_O
 @angular/common/fesm2022/_module-chunk.mjs:
 @angular/common/fesm2022/http.mjs:
   (**
-   * @license Angular v21.2.9
+   * @license Angular v21.2.12
    * (c) 2010-2026 Google LLC. https://angular.dev/
    * License: MIT
    *)
