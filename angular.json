@@ -47,6 +47,9 @@
         "esbuild": {
           "builder": "@angular/build:application",
           "options": {
+            "define": {
+             "ngDevMode": "false"
+            },
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
