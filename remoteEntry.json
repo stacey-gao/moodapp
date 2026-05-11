@@ -3,7 +3,7 @@
   "shared": [
     {
       "packageName": "@angular/common",
-      "outFileName": "_angular_common.N0wEGyakPK-dev.js",
+      "outFileName": "_angular_common.N0wEGyakPK.js",
       "requiredVersion": "^21.2.9",
       "singleton": true,
       "strictVersion": true,
@@ -11,7 +11,7 @@
     },
     {
       "packageName": "@angular/common/http",
-      "outFileName": "_angular_common_http.wjs-NhNbBR-dev.js",
+      "outFileName": "_angular_common_http.wjs-NhNbBR.js",
       "requiredVersion": "^21.2.9",
       "singleton": true,
       "strictVersion": true,
@@ -19,7 +19,7 @@
     },
     {
       "packageName": "@angular/core",
-      "outFileName": "_angular_core.XBKOKtLDru-dev.js",
+      "outFileName": "_angular_core.XBKOKtLDru.js",
       "requiredVersion": "^21.2.9",
       "singleton": true,
       "strictVersion": true,
@@ -27,7 +27,7 @@
     },
     {
       "packageName": "@angular/core/primitives/di",
-      "outFileName": "_angular_core_primitives_di.08Ejpv4IH_-dev.js",
+      "outFileName": "_angular_core_primitives_di.08Ejpv4IH_.js",
       "requiredVersion": "^21.2.9",
       "singleton": true,
       "strictVersion": true,
@@ -35,7 +35,7 @@
     },
     {
       "packageName": "@angular/core/primitives/signals",
-      "outFileName": "_angular_core_primitives_signals.-9DMSjRuZR-dev.js",
+      "outFileName": "_angular_core_primitives_signals.-9DMSjRuZR.js",
       "requiredVersion": "^21.2.9",
       "singleton": true,
       "strictVersion": true,
@@ -43,7 +43,7 @@
     },
     {
       "packageName": "@angular/forms",
-      "outFileName": "_angular_forms.dx0DVmRLl0-dev.js",
+      "outFileName": "_angular_forms.dx0DVmRLl0.js",
       "requiredVersion": "^21.2.9",
       "singleton": true,
       "strictVersion": true,
@@ -51,7 +51,7 @@
     },
     {
       "packageName": "@angular/platform-browser",
-      "outFileName": "_angular_platform_browser.BKyOW6Yqo4-dev.js",
+      "outFileName": "_angular_platform_browser.BKyOW6Yqo4.js",
       "requiredVersion": "^21.2.9",
       "singleton": true,
       "strictVersion": true,
@@ -59,7 +59,7 @@
     },
     {
       "packageName": "@angular/router",
-      "outFileName": "_angular_router.0HFSPdidxe-dev.js",
+      "outFileName": "_angular_router.0HFSPdidxe.js",
       "requiredVersion": "^21.2.9",
       "singleton": true,
       "strictVersion": true,
@@ -67,7 +67,7 @@
     },
     {
       "packageName": "rxjs",
-      "outFileName": "rxjs.enCRoOlUxf-dev.js",
+      "outFileName": "rxjs.enCRoOlUxf.js",
       "requiredVersion": "~7.8.0",
       "singleton": true,
       "strictVersion": true,
@@ -75,7 +75,7 @@
     },
     {
       "packageName": "rxjs/operators",
-      "outFileName": "rxjs_operators.wcdtk9mG9W-dev.js",
+      "outFileName": "rxjs_operators.wcdtk9mG9W.js",
       "requiredVersion": "~7.8.0",
       "singleton": true,
       "strictVersion": true,
@@ -83,7 +83,7 @@
     },
     {
       "packageName": "tslib",
-      "outFileName": "tslib.mM45fHb7ZI-dev.js",
+      "outFileName": "tslib.mM45fHb7ZI.js",
       "requiredVersion": "^2.3.0",
       "singleton": true,
       "strictVersion": true,
@@ -94,71 +94,58 @@
       "strictVersion": false,
       "version": "0.0.0",
       "requiredVersion": "0.0.0",
-      "packageName": "@nf-internal/chunk-IE2S7NZU",
-      "outFileName": "chunk-IE2S7NZU.js"
+      "packageName": "@nf-internal/chunk-KNUKVBCT",
+      "outFileName": "chunk-KNUKVBCT.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
       "version": "0.0.0",
       "requiredVersion": "0.0.0",
-      "packageName": "@nf-internal/chunk-WF4PYHG7",
-      "outFileName": "chunk-WF4PYHG7.js"
+      "packageName": "@nf-internal/chunk-BBNAOKFW",
+      "outFileName": "chunk-BBNAOKFW.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
       "version": "0.0.0",
       "requiredVersion": "0.0.0",
-      "packageName": "@nf-internal/chunk-FUPCM2YO",
-      "outFileName": "chunk-FUPCM2YO.js"
+      "packageName": "@nf-internal/chunk-5TSPXXRX",
+      "outFileName": "chunk-5TSPXXRX.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
       "version": "0.0.0",
       "requiredVersion": "0.0.0",
-      "packageName": "@nf-internal/chunk-JJ7WG6RQ",
-      "outFileName": "chunk-JJ7WG6RQ.js"
+      "packageName": "@nf-internal/chunk-DI2ARBKW",
+      "outFileName": "chunk-DI2ARBKW.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
       "version": "0.0.0",
       "requiredVersion": "0.0.0",
-      "packageName": "@nf-internal/chunk-WDMUDEB6",
-      "outFileName": "chunk-WDMUDEB6.js"
+      "packageName": "@nf-internal/chunk-4CLCTAJ7",
+      "outFileName": "chunk-4CLCTAJ7.js"
     }
   ],
   "exposes": [
     {
       "key": "./WeeklyTrend",
-      "outFileName": "WeeklyTrend.js",
-      "dev": {
-        "entryPoint": "/Users/user/Downloads/College/ICSI499/NeuroConnect/moodapp/src/app/components/weeklytrend/weeklytrend.ts"
-      }
+      "outFileName": "WeeklyTrend-IQFO5DH4.js"
     },
     {
       "key": "./LogMood",
-      "outFileName": "LogMood.js",
-      "dev": {
-        "entryPoint": "/Users/user/Downloads/College/ICSI499/NeuroConnect/moodapp/src/app/components/logmood/logmood.ts"
-      }
+      "outFileName": "LogMood-OQ2OMEWO.js"
     },
     {
       "key": "./Trends",
-      "outFileName": "Trends.js",
-      "dev": {
-        "entryPoint": "/Users/user/Downloads/College/ICSI499/NeuroConnect/moodapp/src/app/components/weeklytrend/weeklytrend.ts"
-      }
+      "outFileName": "Trends-67LEBNON.js"
     },
     {
       "key": "./Card",
-      "outFileName": "Card.js",
-      "dev": {
-        "entryPoint": "/Users/user/Downloads/College/ICSI499/NeuroConnect/moodapp/src/app/components/weeklytrend/weeklytrend.ts"
-      }
+      "outFileName": "Card-FYZAMYNK.js"
     }
-  ],
-  "buildNotificationsEndpoint": "/@angular-architects/native-federation:build-notifications"
+  ]
 }

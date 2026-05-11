@@ -1,20 +1,20 @@
 {
   "imports": {
-    "@angular/common": "_angular_common.N0wEGyakPK-dev.js",
-    "@angular/common/http": "_angular_common_http.wjs-NhNbBR-dev.js",
-    "@angular/core": "_angular_core.XBKOKtLDru-dev.js",
-    "@angular/core/primitives/di": "_angular_core_primitives_di.08Ejpv4IH_-dev.js",
-    "@angular/core/primitives/signals": "_angular_core_primitives_signals.-9DMSjRuZR-dev.js",
-    "@angular/forms": "_angular_forms.dx0DVmRLl0-dev.js",
-    "@angular/platform-browser": "_angular_platform_browser.BKyOW6Yqo4-dev.js",
-    "@angular/router": "_angular_router.0HFSPdidxe-dev.js",
-    "rxjs": "rxjs.enCRoOlUxf-dev.js",
-    "rxjs/operators": "rxjs_operators.wcdtk9mG9W-dev.js",
-    "tslib": "tslib.mM45fHb7ZI-dev.js",
-    "@nf-internal/chunk-IE2S7NZU": "chunk-IE2S7NZU.js",
-    "@nf-internal/chunk-WF4PYHG7": "chunk-WF4PYHG7.js",
-    "@nf-internal/chunk-FUPCM2YO": "chunk-FUPCM2YO.js",
-    "@nf-internal/chunk-JJ7WG6RQ": "chunk-JJ7WG6RQ.js",
-    "@nf-internal/chunk-WDMUDEB6": "chunk-WDMUDEB6.js"
+    "@angular/common": "_angular_common.N0wEGyakPK.js",
+    "@angular/common/http": "_angular_common_http.wjs-NhNbBR.js",
+    "@angular/core": "_angular_core.XBKOKtLDru.js",
+    "@angular/core/primitives/di": "_angular_core_primitives_di.08Ejpv4IH_.js",
+    "@angular/core/primitives/signals": "_angular_core_primitives_signals.-9DMSjRuZR.js",
+    "@angular/forms": "_angular_forms.dx0DVmRLl0.js",
+    "@angular/platform-browser": "_angular_platform_browser.BKyOW6Yqo4.js",
+    "@angular/router": "_angular_router.0HFSPdidxe.js",
+    "rxjs": "rxjs.enCRoOlUxf.js",
+    "rxjs/operators": "rxjs_operators.wcdtk9mG9W.js",
+    "tslib": "tslib.mM45fHb7ZI.js",
+    "@nf-internal/chunk-KNUKVBCT": "chunk-KNUKVBCT.js",
+    "@nf-internal/chunk-BBNAOKFW": "chunk-BBNAOKFW.js",
+    "@nf-internal/chunk-5TSPXXRX": "chunk-5TSPXXRX.js",
+    "@nf-internal/chunk-DI2ARBKW": "chunk-DI2ARBKW.js",
+    "@nf-internal/chunk-4CLCTAJ7": "chunk-4CLCTAJ7.js"
   }
 }

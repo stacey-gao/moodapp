@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/components/greeting/greeting.scss"],
-  "sourcesContent": ["p{\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    padding: 1rem 2rem;\n    background-color: #333;\n    border-bottom: 1px solid #e5e5e5;\n    color: #fff;\n\n\n    font-size: 30px;\n    font-family: 'Lato', sans-serif;\n}"],
-  "mappings": ";AAAA;AACI,WAAA;AACA,eAAA;AACA,mBAAA;AACA,WAAA,KAAA;AACA,oBAAA;AACA,iBAAA,IAAA,MAAA;AACA,SAAA;AAGA,aAAA;AACA,eAAA,MAAA,EAAA;;",
-  "names": []
-}
