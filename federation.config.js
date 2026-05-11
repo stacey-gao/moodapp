@@ -1,7 +1,7 @@
 const { withNativeFederation, shareAll } = require('@angular-architects/native-federation/config');
 
 module.exports = withNativeFederation({
-  name: 'moodapp',
+  name: 'mood',
 
   exposes: {
     './Component': './src/app/app.ts',
