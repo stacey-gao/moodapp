@@ -3,7 +3,7 @@
   "shared": [
     {
       "packageName": "@angular/common",
-      "outFileName": "_angular_common.XyPg51ITtC.js",
+      "outFileName": "_angular_common.VUOjmBHL6z.js",
       "requiredVersion": "^21.2.0",
       "singleton": true,
       "strictVersion": true,
@@ -11,7 +11,7 @@
     },
     {
       "packageName": "@angular/common/http",
-      "outFileName": "_angular_common_http.Qh2hQ5BLNx.js",
+      "outFileName": "_angular_common_http.9KIh_ReAr0.js",
       "requiredVersion": "^21.2.0",
       "singleton": true,
       "strictVersion": true,
@@ -19,7 +19,7 @@
     },
     {
       "packageName": "@angular/core",
-      "outFileName": "_angular_core.kSSRmiO3gV.js",
+      "outFileName": "_angular_core.tAI-XMAsS7.js",
       "requiredVersion": "^21.2.0",
       "singleton": true,
       "strictVersion": true,
@@ -27,7 +27,7 @@
     },
     {
       "packageName": "@angular/core/primitives/di",
-      "outFileName": "_angular_core_primitives_di.KftUH0L-0s.js",
+      "outFileName": "_angular_core_primitives_di.i1oWfZiRrn.js",
       "requiredVersion": "^21.2.0",
       "singleton": true,
       "strictVersion": true,
@@ -35,7 +35,7 @@
     },
     {
       "packageName": "@angular/core/primitives/signals",
-      "outFileName": "_angular_core_primitives_signals.Y7o7U_jlwE.js",
+      "outFileName": "_angular_core_primitives_signals.TaMwnkM2bX.js",
       "requiredVersion": "^21.2.0",
       "singleton": true,
       "strictVersion": true,
@@ -43,7 +43,7 @@
     },
     {
       "packageName": "@angular/forms",
-      "outFileName": "_angular_forms.gkCrfxarUx.js",
+      "outFileName": "_angular_forms.MwugWzOS1S.js",
       "requiredVersion": "^21.2.0",
       "singleton": true,
       "strictVersion": true,
@@ -51,7 +51,7 @@
     },
     {
       "packageName": "@angular/platform-browser",
-      "outFileName": "_angular_platform_browser.t_ZLBZDQVF.js",
+      "outFileName": "_angular_platform_browser.2KlLuHvwNl.js",
       "requiredVersion": "^21.2.0",
       "singleton": true,
       "strictVersion": true,
@@ -59,7 +59,7 @@
     },
     {
       "packageName": "@angular/router",
-      "outFileName": "_angular_router.u40MZhgQHk.js",
+      "outFileName": "_angular_router.CbNJEHLxE4.js",
       "requiredVersion": "^21.2.0",
       "singleton": true,
       "strictVersion": true,
@@ -67,7 +67,7 @@
     },
     {
       "packageName": "rxjs",
-      "outFileName": "rxjs.lHMNC9Thyb.js",
+      "outFileName": "rxjs.HUe_9nBVqD.js",
       "requiredVersion": "~7.8.0",
       "singleton": true,
       "strictVersion": true,
@@ -75,7 +75,7 @@
     },
     {
       "packageName": "rxjs/operators",
-      "outFileName": "rxjs_operators.J5fQ05RYYH.js",
+      "outFileName": "rxjs_operators.u7B95AZOvP.js",
       "requiredVersion": "~7.8.0",
       "singleton": true,
       "strictVersion": true,
@@ -83,7 +83,7 @@
     },
     {
       "packageName": "tslib",
-      "outFileName": "tslib.NauXEfY_uL.js",
+      "outFileName": "tslib.Ci0_deO-HC.js",
       "requiredVersion": "^2.3.0",
       "singleton": true,
       "strictVersion": true,
@@ -133,11 +133,11 @@
   "exposes": [
     {
       "key": "./Component",
-      "outFileName": "Component-SK32A453.js"
+      "outFileName": "Component-AMYUOERN.js"
     },
     {
       "key": "./WeeklyTrend",
-      "outFileName": "WeeklyTrend-RWYAWYDO.js"
+      "outFileName": "WeeklyTrend-QP4JRBT7.js"
     },
     {
       "key": "./LogMood",
