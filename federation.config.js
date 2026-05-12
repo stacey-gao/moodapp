@@ -8,7 +8,7 @@ module.exports = withNativeFederation({
     './WeeklyTrend': './src/app/app.ts',
     './LogMood': './src/app/logmoodpage/logmoodpage.ts',
     './Trends': './src/app/components/weeklytrend/weeklytrend.ts',
-    './Card': './src/app/components/weeklytrend/weeklytrend.ts'
+    './Card': 'src/app/mood-card/mood-card.ts'
   },
 
   shared: {
