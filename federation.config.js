@@ -5,7 +5,7 @@ module.exports = withNativeFederation({
 
   exposes: {
     './Component': './src/app/components/logmood/logmood.ts',
-    './WeeklyTrend': './src/app/dashboard/dashboard.ts',
+    './WeeklyTrend': './src/app/app.ts',
     './LogMood': './src/app/logmoodpage/logmoodpage.ts',
     './Trends': './src/app/components/weeklytrend/weeklytrend.ts',
     './Card': 'src/app/mood-card/mood-card.ts'
