@@ -1,1 +1,0 @@
-import{a as t}from"./chunk-IKCB42XV.js";import*as o from"@angular/core";var n=class a{static \u0275fac=function(e){return new(e||a)};static \u0275cmp=o.\u0275\u0275defineComponent({type:a,selectors:[["app-logmoodpage"]],decls:1,vars:0,template:function(e,m){e&1&&o.\u0275\u0275element(0,"app-logmood")},dependencies:[t],encapsulation:2})};export{n as Logmoodpage};
