@@ -1,9 +1,8 @@
 <app-greeting [message] = "homeMessage()" />
 
-<app-logmood />
-
-<app-weeklytrend />
+<div class="split-layout">
+  <app-logmood class="left-pane"></app-logmood>
+  <app-weeklytrend class="right-pane"></app-weeklytrend>
+</div>
 
 <app-mood-history />
-
-<br/>

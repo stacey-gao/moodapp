@@ -2,3 +2,42 @@
     display: block;
     background-color: #f5f5f5;
 }
+
+.split-layout {
+  display: flex;
+  height: calc(100vh - 60px);
+}
+
+.left-pane,
+.right-pane {
+  flex: 1; 
+  overflow: auto;
+}
+
+.left-pane {
+  border-right: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+  .split-layout {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left-pane,
+  .right-pane {
+    flex: none;
+    width: 100%;
+    min-height: 50vh;
+  }
+
+  
+  .right-pane {
+    padding-top: 10px;
+  }
+
+  app-weeklytrend {
+    width: 95%;
+    max-width: none;
+  }
+}
