@@ -10,7 +10,6 @@ export const routes: Routes = [
       import('./dashboard/dashboard').then(m => m.Dashboard),
     title: 'Dashboard'
   },
-
   {
     path: 'logmoodpage',
     loadComponent: () =>
@@ -23,6 +22,5 @@ export const routes: Routes = [
       import('./seetrends/seetrends').then(m => m.Seetrends),
     title: 'Trends'
   },
-
   { path: '**', redirectTo: '' }
 ];
