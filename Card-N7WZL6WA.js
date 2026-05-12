@@ -1,0 +1,1 @@
+import{a as n}from"./chunk-PYFPRJJO.js";import*as e from"@angular/core";var a=class t{static \u0275fac=function(o){return new(o||t)};static \u0275cmp=e.\u0275\u0275defineComponent({type:t,selectors:[["app-mood-card"]],decls:1,vars:0,template:function(o,r){o&1&&e.\u0275\u0275element(0,"app-weeklytrend")},dependencies:[n],encapsulation:2})};export{a as MoodCard};
