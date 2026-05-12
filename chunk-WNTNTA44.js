@@ -1,0 +1,1 @@
+import{a as s}from"./chunk-K7ZEZ6JK.js";import*as e from"@angular/core";var r=class n{static \u0275fac=function(t){return new(t||n)};static \u0275cmp=e.\u0275\u0275defineComponent({type:n,selectors:[["app-seetrends"]],decls:1,vars:0,template:function(t,o){t&1&&e.\u0275\u0275element(0,"app-weeklytrend")},dependencies:[s],encapsulation:2})};export{r as a};
