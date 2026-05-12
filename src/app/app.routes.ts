@@ -6,17 +6,11 @@ import { Seetrends } from './seetrends/seetrends';
 export const routes: Routes = [
   {
     path: '',
-    redirectTo: 'dashboard',
-    pathMatch: 'full'
-  },
-
-  // Navigation routes
-  {
-    path: 'dashboard',
     loadComponent: () =>
       import('./dashboard/dashboard').then(m => m.Dashboard),
     title: 'Dashboard'
   },
+
   {
     path: 'logmoodpage',
     loadComponent: () =>
@@ -30,5 +24,5 @@ export const routes: Routes = [
     title: 'Trends'
   },
 
-  { path: '**', redirectTo: 'dashboard' }
+  { path: '**', redirectTo: '' }
 ];
